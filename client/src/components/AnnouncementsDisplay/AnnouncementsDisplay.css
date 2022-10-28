@@ -1,0 +1,31 @@
+
+.card {
+  display: flex;
+  background-color: #494949;
+  color: white;
+  flex-direction: column;
+  align-items: stretch;
+  border: 1px solid black;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  padding-left: 3rem;
+  padding: 0.75rem;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.card p {
+  padding-top: 1rem;
+  line-height: 150%;
+}
+
+.apply-div {
+  display: flex;
+  justify-content: center;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  line-height: 150%;
+  justify-content: space-around;
+}

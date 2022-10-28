@@ -1,0 +1,72 @@
+.logos {
+    align-items: center;
+}
+
+.logo-jobless {
+    position: relative;
+    margin: 50px;
+    width: 40%;
+    left: 4%;
+    overflow: hidden;
+}
+
+.jobless {
+    position: relative;
+    width: 100%;
+    animation: jobless-transition 1.5s ease-in-out forwards;
+}
+
+.logo-jobhub {
+    position: relative;
+    left: 10%;
+    margin: auto;
+    width: 60%;
+    overflow: hidden;
+}
+
+.jobhub {
+    width: 100%;
+    animation: jobhub-transition 4.5s ease-in-out forwards;
+}
+
+.view_more {
+    position: relative;
+    left: 35%;
+    top: 8vw;
+    width: 30%;
+    height: 80px;
+    font-weight: bold;
+}
+
+.view_more:hover {
+    color: white;
+    transition: .4s;
+}
+
+@keyframes jobless-transition {
+    0% {
+        transform: 
+        translateX(-500px)
+        scale(.2);
+    }
+    100% {
+        transform:
+        translateX(0px)
+        scale(1);
+    }
+}
+
+@keyframes jobhub-transition {
+    0% {
+        width: 1%;
+        transform: 
+        translateX(500px)
+        scale(.2);
+    }
+    100% {
+        width: 100%;
+        transform:
+        translateX(0px)
+        scale(1);
+    }
+}

@@ -1,0 +1,11 @@
+.announcement-card {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.announcement-card Form {
+  background-color: #494949;
+  padding: 1rem;
+  border-radius: 1rem;
+}

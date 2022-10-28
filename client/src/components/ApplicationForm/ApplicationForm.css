@@ -1,0 +1,16 @@
+.application-card {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.announcement-information {
+  background-color: #494949;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.announcement-details {
+  display: flex;
+  flex-direction: column;
+}
