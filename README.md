@@ -21,7 +21,7 @@ npm i
 And then compile the sass to css by doing :
 ```bash
 cd sass
-sass main.sass main.css
+sass main.scss main.css
 ```
 
 #### To do in `/server` :
